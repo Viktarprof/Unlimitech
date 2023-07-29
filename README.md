@@ -18,7 +18,7 @@ React Icons: Icons from the React Icons library are incorporated to enhance the 
 
 React Hook Form: React Hook Form is employed to simplify form management and validation.
 
-![screenApp](../screenApp.png)
-![scheme](../scheme.png)
+![screenApp](./screenApp.png)
+![scheme](./scheme.png)
 
 
