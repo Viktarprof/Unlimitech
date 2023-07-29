@@ -1,0 +1,19 @@
+.track{
+  display: flex;
+  gap: 68px;
+}
+
+.logoWindow {
+  width: 1000px;
+
+  display: flex;
+  gap: 68px;
+  overflow: hidden;
+}
+
+.logoItem {
+  width: 100px;
+  height: 40px;
+  
+  transition: transform 1s ease;
+}

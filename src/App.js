@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import HeaderContainer from "./components/HeaderContainer/HeaderContainer";
+import LikedImages from "./components/LikedImages/LikedImages";
+import LogoCaruselContainer from "./components/LogoCaruselContainer/LogoCaruselContainer";
+import Nav from "./components/Nav/Nav";
+import Offer from "./components/Offer/Offer";
+import ProductList from "./components/ProductList/ProductList";
+import Subscribe from "./components/Subscribe/Subscribe";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav />
+      <HeaderContainer />
+      <LogoCaruselContainer />
+      <Offer />
+      <ProductList />
+      <Subscribe />
+    </>
   );
 }
 

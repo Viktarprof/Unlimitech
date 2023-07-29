@@ -1,0 +1,64 @@
+.naviBtn {
+  border: none;
+  background-color: rgba(240, 248, 255, 0);
+}
+.naviBtn:hover {
+  color: var(--orange);
+}
+.offerBtn {
+  width: 192px;
+  height: 64px;
+  border: none;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  position: absolute;
+  bottom: 70px;
+}
+.offerBtn:hover {
+  box-shadow: 0px 0px 10px 5px var(--orange);
+  color: var(--orange);
+}
+.arrow {
+  width: 36px;
+  height: 36px;
+  position: relative;
+
+  background-color: rgba(0, 0, 0, 0.247);
+  color: aliceblue;
+  font-size: 20px;
+  border: none;
+}
+.arrow:hover {
+  background-color: black;
+}
+.bannerBtn {
+  width: 325px;
+  height: 64px;
+  border: none;
+}
+.bannerBtn:hover {
+  box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.693);
+}
+
+.dołączBtn {
+  width: 550px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.prevNext{
+  width: 50px;
+  height: 535px;
+
+  background-color: rgba(0, 0, 0, 0.559);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.prevNext:hover{
+  color: var(--blue);
+}

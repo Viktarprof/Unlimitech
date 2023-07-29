@@ -1,0 +1,94 @@
+.navContainer {
+  width: 100%;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+
+  background-color: black;
+  color: white;
+}
+
+p {
+  font-size: 14px;
+  font: normal normal bold 14px/18px "Montserrat";
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+
+.btnContainer {
+  height: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sotialLogo {
+  display: flex;
+  gap: 10px;
+}
+
+.navigationButton {
+  display: flex;
+  gap: 42px;
+}
+
+.logoNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+}
+
+.userDashboard {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.offers {
+  width: 100%;
+
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  background-color: black;
+  color: white;
+
+  overflow: hidden;
+}
+
+.offers p {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: scrollText 40s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.offersText {
+  text-align: left;
+  font: normal normal bold 20px/24px "Montserrat";
+  letter-spacing: 0.8px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}

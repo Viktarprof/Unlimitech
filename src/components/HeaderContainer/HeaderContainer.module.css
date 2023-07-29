@@ -1,0 +1,7 @@
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    
+    margin: 25px 0 56px 0;
+}
